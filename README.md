@@ -33,7 +33,7 @@ The version of xv6 provided in the zip file is missing a working ps command.This
    pouch connect c1
    ```
 
-## How to Run XV6 on Ubuntu
+## How to Run XV6 & the project on Ubuntu
 
 1. For installation instructions, refer to the included "Running and Debugging xv6" file.
 2. Use the commands above to explore xv6 as-is.
