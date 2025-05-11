@@ -4,40 +4,39 @@
 
 ## What is XV6?
 
-[xv6](https://pdos.csail.mit.edu/6.828/2022/xv6.html) is a simple Unix-like teaching operating system developed by MIT, used to demonstrate core OS concepts like process management, system calls, and file systems. It runs on x86 (32-bit).
+[xv6](https://pdos.csail.mit.edu/6.828/2022/xv6.html) is a simple Unix-like teaching operating system developed by MIT. It's designed to demonstrate core OS concepts like process management, system calls, and file systems. xv6 runs on x86 (32-bit) and is commonly used for academic purposes.
 
 ## Project Objective
 
-the xv6 given in the zip file has a missing ps command. so the projects fixes that bug by adding this command.  
-this comand supports non nested containers as well.
+The version of xv6 provided in the zip file is missing a working ps command.This project fixes that issue by adding a functional ps command with support for non-nested containers.
 
 ## notable commands for the project
 
-1. to compile:
+1. To clean and compile (always use make clean before use):
    ```
    make clean
    ```
-2. to enter the os:
+2. To start the OS:
    ```
    make qemu
    ```
-3. to see the processes running:
+3. To view running processes:
    ```
    ps
    ```
-4. to open a container (c1 is a container name of the example):
+4. To start a container (e.g., named c1):
    ```
    pouch start c1
    ```
-5. to enter the container (c1 is the name of the container we enter in the example):
+5. To connect to a container:
    ```
    pouch connect c1
    ```
 
 ## How to Run XV6 on Ubuntu
 
-1. for downloading & running xv6 visit "Running and debbugging xv6" file
-2. use the commands mentioned above to see xv6 without the project
-3. add the updated files to the xv6 files and delete the former non updated files
-4. compile & run
-5. try the commands mentioned above again
+1. For installation instructions, refer to the included "Running and Debugging xv6" file.
+2. Use the commands above to explore xv6 as-is.
+3. Copy the updated files from this project into the xv6 directory, replacing the original files.
+4. Compile and run xv6 again.
+5. Use the commands above again to explore xv6 with its updated functionality.
